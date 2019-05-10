@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/login.css" />
+    <script src="main.js"></script>
+  </head>
+
+    <body oncontextmenu="return false">
+       <!-- <header id="top" class="main-headertwo"> -->
+       <!-- </header> -->
+        <form class="box" action="https://www.spseol.cz/" method="post">
+          <h1>Login</h1>
+          <input type="text" name="userid" placeholder="Username">
+          <input type="password" name="pswrd" placeholder="Password">
+          <input type="submit" name="" value="Login">
+
+          <script language="javascript">
+            function chech(form)
+            {
+                if(form.userid.value == "SPSEOL" && form.pswrd.value == "2341")
+                {
+                    window.open('https://www.spseol.cz/')
+                }
+                else
+                {
+                    alert("Jméno nebo heslo které jste zadali není správné zkuste to znovu")
+                }
+            }
+          </script>
+        </form>
+    </body>
+</html>

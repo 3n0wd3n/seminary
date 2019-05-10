@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Help us</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <div class="main-container">
+
+            
+
+            <form action="index.html" method="post">
+                <h1 class="signup" id="formular">Pomozme si navzajem</h1>
+                <!--<p><i>Tuhle stránku jsme založili z jediného důvodu, a to z toho, abychom spojili dohromady komunitu lidí, díky které se bude tahle stranka rozrůstat a vylepšovat a ty se tak mohl zapojit s návrhy na designu téhle stránky a mnoho dalších projektů souvisejících s ní.</i></p>-->
+
+                <fieldset>
+
+                    <legend><span class="number">1</span> Základní informace</legend>
+
+                    <label for="name">Jméno</label>
+                    <input type="text" id="name" name="user_name">
+
+                    <label for="secondname">Příjmení</label>
+                    <input type="text" id="secondname" name="user_secondname">
+
+                    <label for="isic">Tel. číslo  (S předvolbou bez znaménkaa bez mezer)</label>
+                    <input type="number" id="tel" name="user_tel">
+
+
+                    <!-- <label for="isic">ISIC  (*pět čísel)</label>-->
+                    <!-- <input type="number" id="isic" name="user_isic">-->
+
+
+                    <!-- <label for="adress">Adress:</label>
+                    <input type="adress" id="adress" name="user_adress"> --> <!--Tohle nefunguje!-->
+
+                    <label for="mail">Email</label>
+                    <p class="itext"><i>Rádi ti odpovíme na email či telefonicky:</i></p>
+                    <input type="email" id="mail" name="user_email">
+
+                    <label for="webovestranky">Webové stránky</label>
+                    <p class="itext"><i>Máš své osobní stránky nebo blog? Vlož sem jejich adresu:</i></p>
+                    <input type="url" id="webovestranky" name="user_webovestranky">
+                    
+
+                    <!--<label for="password">Heslo:</label>-->
+                    <!--<input type="password" id="password" name="user_password">--> 
+                <!--
+                    <label for="age">Věk:</label>
+                    <input type="radio" id="under_18" value="under_18" name="user_age"><label for="under_18
+                    " class="light">Pod osmnáct</label>
+                
+                    <br>
+
+                    <input type="radio" id="over_18" value="over_18" name="user_age"><label for="over_18
+                    " class="light">Osmnáct a víc</label> 
+                -->
+                </fieldset>
+
+               <fieldset>
+
+                    <legend><span class="number">2</span>Tvůj názor/dotaz</legend>
+                    <label for="opinion">Vyjádři se:</label>
+                    <textarea id="opinion" name="user_opinion"></textarea>
+                    
+                    <label for="classes">Kontakt:</label>
+                    <select id="classes" name="user_classes">
+                        <optgroup label="Telefon">
+                            <option value="Ano">Ano</option>
+                            <option value="Ne">Ne</option>
+                        </optgroup>
+
+                        <optgroup label="Email">
+                            <option value="Ano">Ano</option>
+                            <option value="Ne">Ne</option>
+                        </optgroup>
+
+                    </select>
+                    <!--
+                    <select id="classes" name="user_classes">
+
+                        <optgroup label="První ročník">
+
+                            <option value="prvni-a">První A</option>
+                            <option value="prvni-b">První B</option>
+                            <option value="prvni-l">První L</option>
+
+                        </optgroup>
+
+                        <optgroup label="Druhý ročník">
+                        
+                            <option value="druha-a">Druhá A</option>
+                            <option value="druha-b">Druhá B</option>
+                            <option value="druha-l">Druhá L</option>
+
+                        </optgroup>
+                        
+                        <optgroup label="Třetí ročník">
+            
+                            <option value="treti-a">Třetí A</option>
+                            <option value="treti-b">Třetí B</option>
+                            <option value="treti-l">Třetí L</option>         
+
+                        </optgroup>
+
+                                    
+                        <optgroup label="Čtvrtý ročník">
+
+                        <option value="ctvrta-a">Čtvrtá A</option>
+                        <option value="ctvrta-b">Čtvrtá B</option>
+                        <option value="ctvrta-l">Čtvrtá L</option>
+
+                                    
+                        </optgroup>
+
+                    </select>
+                    -->
+
+                    <label>Výběr:</label>
+                    <input type="radio" id="stiznost" value="options_stiznost" name="user_options"><label class="light" for="stiznost">Stížnost</label><br>
+                    <input type="radio" id="navrh" value="options_navrh" name="user_options"><label class="light" for="navrh">Návrh</label><br>
+                    <input type="radio" id="dotaz" value="options_dotaz" name="user_options"><label class="light" for="dotaz">Dotaz</label><br>
+                    <input type="radio" id="kritika" value="options_kritika" name="user_options"><label class="light" for="kritika">Kritika</label><br>
+                    <input type="radio" id="niczeseznamu" value="options_niczeseznamu" name="user_options"><label class="light" for="niczeseznamu">Nic ze seznamu</label><br>
+
+                </fieldset>
+
+                
+                <button type="submit">Poslat</button>
+                
+                <div class="second">
+                    <button href="index.html" type="submit">Zpět</button>
+                </div>
+
+            
+            </form>
+        </div>
+      
+    </body>
+</htm

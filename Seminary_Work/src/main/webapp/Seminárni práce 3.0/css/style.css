@@ -1,0 +1,395 @@
+/* Web Fonts -------------------- */
+
+@font-face {
+  font-family: 'Abolition Regular';
+  src: url('../fonts/abolition-regular-webfont.eot');
+  src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/abolition-regular-webfont.woff') format('woff'),
+       url('../fonts/abolition-regular-webfont.ttf') format('truetype');
+}
+
+/* Base Styles -------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #878787;
+  margin: 0;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h4,
+h2,
+h3,
+h5 {
+  font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
+}
+
+h5 {
+  font-size: 2.425em; /* 53px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+  color: rgba(240, 232, 232, 0.698);
+  
+}
+
+h4 {  
+  font-size: 5.625rem; /* 90px/16px  */
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.3; 
+  text-shadow: 0 1px 1px rgba(0,0,0,.8);
+  margin: 12px 0 0;
+}
+
+h2 {
+  font-size: 5.3125em; /* 53px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0 0 .5em; /* 0 0 26px */
+}
+
+h3 {
+  font-size: 2.125em; /* 53px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0 0 .5em; /* 0 0 26px */
+  /*
+  font-size: 1.25em;*/ /* 20px/16px  */
+  /*
+  color: #48525c;
+  line-height: 1.2;*/
+  /*
+  margin-bottom: 1.7em;*/ /* 34px */
+  
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+
+
+
+button{
+
+ /* border-bottom: 5px solid;*/
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
+
+
+}
+.buttontoweb {
+
+  /* border-bottom: 5px solid;*/
+   padding: 0 9px 3px;
+   margin-top: 20px;
+   display: inline-block;
+   color: #FFF;
+   background-color: #ffd5a6;
+   font-size: 18px;
+   text-align: center;
+   font-style: normal;
+   border-radius: 5px;
+   width: 100%;
+   border: 1px solid #ffbb6d;
+   border-width: 1px 1px 3px;
+   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+   margin-bottom: 10px;
+   
+ } 
+ 
+
+
+
+
+.itext{
+
+color: #ffbb6d;
+}
+
+.second{
+ /* border-bottom: 5px solid;*/
+  padding: 0 3px 3px;
+  margin-top: 30px;
+  margin-left: 200%;
+  display: inline-block;
+}
+
+
+ul,
+ol {
+  margin: 30px 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Pseudo-classes ------------------ */
+
+.Buttontoweb a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.Buttontoweb a:visited {
+  color: rgb(255, 255, 255);
+}
+
+.Buttontoweb a:hover {
+  color: rgba(255, 227, 196, 0.651);
+}
+
+.Buttontoweb a:active {
+  color: #ffbb6d;
+}
+
+a:link {
+  color: rgb(135, 202, 202);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgba(207, 207, 207, 0.863);
+}
+
+a:hover {
+  color: #ffbb6d;
+}
+
+a:active {
+  color: rgba(255, 227, 67, 0.76);
+}
+
+#section-b a:visited{
+ 
+    color: rgba(243, 243, 243, 0.863);
+
+}
+
+#section-b a:hover{
+ 
+  color: rgba(255, 227, 196, 0.651);
+
+}
+
+#section-b a:link{
+ 
+  color: rgb(135, 202, 202);
+  text-decoration: none;
+
+}
+
+#showcase a:visited{
+  
+  color: rgba(243, 243, 243, 0.514);
+}
+
+/* Main Styles --------------------- */
+
+.main-header {
+  padding-top: 170px;
+  height: 960px;
+  background: linear-gradient(#b0d5ff, transparent 70%),
+              linear-gradient(0deg, #fff, transparent),
+              #49b6ff url('../img/trynumbertwo.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.title {
+  color: white;
+  font-size: 1.625rem; /* 26px/16px */
+  letter-spacing: .065em;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+}
+.ourschool{
+  color: #747474a2;
+  font-size: 2.3125em; /* 53px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0 0 .5em; /* 0 0 26px */
+}
+
+.intro {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6;  
+}
+
+.why{
+  font-size: 1.2em; /* 20px/16px */
+  line-height: 1.6;  
+}
+
+.primary-content,
+.main-header,
+.main-footer {
+  text-align: center;
+}
+
+.primary-content {
+	padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.secondary-content {
+	padding-top: 80px;
+	padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
+}
+
+.callout {
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 10px solid  rgba(9, 86, 138, 0.966);
+}
+
+.t-border {
+  border-top: 2px solid #dfe2e6;
+}
+
+/* Layout Styles ------------------ */
+
+.primary-content, 
+.secondary-content {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+}
+
+.about {
+  color: white;
+  text-align: left;
+  padding: 18% 24%;
+  border-top: 10px solid #ffd5a6;
+  margin: 80px 0 60px;
+  background: 
+            linear-gradient(#b0d5ff, transparent 85%),
+            linear-gradient(0deg, rgba(255, 255, 255, 0.904), transparent),
+            #5a99e2 url('../img/circuit.jpg') no-repeat center;
+  background-size: cover;
+  box-shadow: inset 0 0 50px 10px rgba(255, 213, 166, 0.2);
+  border-radius: 10px;
+}
+
+.arrow {
+  width: 50px;
+  margin-top: 150px;
+}
+
+/* Floated Columns ------------------ */
+
+.backend,
+.frontend {
+  width: 46.5%;
+}
+
+.frontend {
+  float: left;
+}
+
+.backend {
+  float: right;
+  
+}
+
+
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Media Queries -------------------- */
+
+@media (max-width: 1024px) {
+  .primary-content,
+  .secondary-content {
+    width: 90%;
+  }
+  .about {
+    padding: 10% 12%;
+    margin: 50px 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .primary-content,
+  .secondary-content {
+    width: 100%;
+    padding: 20px;
+    border-top: none;
+  }
+  .main-header {
+    max-height: 380px;
+    padding: 50px 25px 0;
+  }
+  .title {
+    font-size: 1.3rem;
+    border: none;
+  }
+  h1 {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+  .arrow {
+    display: none;
+  }
+  .intro {
+    font-size: 1rem;
+  }
+  .backend,
+  .frontend {
+    float: none;
+    width: 100%;
+  }
+  .main-footer {
+    padding: 20px 0;
+  }
+
+  .second{
+    /*
+    border-bottom: 5px solid;
+    padding: 0 3px 3px;
+    margin-top: 20px;
+    margin-left: 37%;
+    display: inline-block;
+    
+  */
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
